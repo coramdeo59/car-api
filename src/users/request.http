@@ -1,0 +1,89 @@
+### Sign up user 1 - Standard user
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "john.doe@example.com",
+    "password": "password123"
+}
+
+### Sign up user 2 - Tech professional
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "sarah.dev@techcorp.com",
+    "password": "secure456!"
+}
+
+### Sign up user 3 - Student
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "student2024@university.edu",
+    "password": "study789#"
+}
+
+### Sign up user 4 - Business user
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "mark.wilson@business.net",
+    "password": "bizAcc123$"
+}
+
+### Sign up user 5 - Creative professional
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "creative.mind@arts.org",
+    "password": "artPass789!"
+}
+
+### Sign up user 6 - Healthcare worker
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "dr.smith@hospital.med",
+    "password": "health2024#"
+}
+
+### Sign up user 7 - Marketing specialist
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "marketing.pro@agency.com",
+    "password": "market365$"
+}
+
+### Sign up user 8 - Teacher
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "teacher@school.edu",
+    "password": "teach2024!"
+}
+
+### Sign up user 9 - Engineer
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "engineer@construction.com",
+    "password": "build123#"
+}
+
+### Sign up user 10 - Freelancer
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "freelance.work@remote.io",
+    "password": "free2024$"
+}
