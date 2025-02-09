@@ -51,39 +51,3 @@ Content-Type: application/json
     "email": "dr.smith@hospital.med",
     "password": "health2024#"
 }
-
-### Sign up user 7 - Marketing specialist
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-    "email": "marketing.pro@agency.com",
-    "password": "market365$"
-}
-
-### Sign up user 8 - Teacher
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-    "email": "teacher@school.edu",
-    "password": "teach2024!"
-}
-
-### Sign up user 9 - Engineer
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-    "email": "engineer@construction.com",
-    "password": "build123#"
-}
-
-### Sign up user 10 - Freelancer
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-    "email": "freelance.work@remote.io",
-    "password": "free2024$"
-}
