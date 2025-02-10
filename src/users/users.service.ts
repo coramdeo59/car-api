@@ -19,9 +19,7 @@ export class UsersService {
     }
     
     find(email: string) {
-<<<<<<< HEAD
-        return this.repo.find({ where: { email } });
-=======
+
         return this.repo.find({ where: { email } })
     }
     async update(id: number, attrs: Partial<User>) {
@@ -31,7 +29,6 @@ export class UsersService {
         }
         Object.assign(user, attrs);
         return this.repo.save(user);
->>>>>>> b8f3185383d0a0abd8696912f02397dc62b17b59
     }
     
     // async remove(id: number) {
