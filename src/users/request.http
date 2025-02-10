@@ -87,3 +87,22 @@ Content-Type: application/json
     "email": "freelance.work@remote.io",
     "password": "free2024$"
 }
+
+### Get user by ID
+GET http://localhost:3000/auth/83
+
+
+### Find user by email
+GET http://localhost:3000/auth/12
+
+### Remove user by ID
+DELETE http://localhost:3000/auth/6
+
+### Update user by ID
+PATCH http://localhost:3000/auth/4
+Content-Type: application/json
+
+{
+    "email": "new.email@example.com",
+    "password": "newPassword123"
+}
